@@ -1,0 +1,19 @@
+{
+  "name": "braze-perf-goals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "buildw": "tsc -w",
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "dotenv": "^16.4.1",
+    "puppeteer-core": "^21.10.0",
+    "typescript": "^5.3.3"
+  }
+}
